@@ -13,5 +13,5 @@ export default auth((req) => {
     return Response.redirect(url);
   }
 });
-
+// /dashboard/:path*
 export const config = { matcher: ['/dashboard/:path*'] };
